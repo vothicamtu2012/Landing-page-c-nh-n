@@ -4,7 +4,7 @@ import { Rocket } from 'lucide-react';
 
 const Header: React.FC = () => {
   return (
-    <header className="bg-white/80 backdrop-blur-md sticky top-0 z-50 border-b border-gray-200">
+    <header className="bg-brand-light sticky top-0 z-50 border-b border-gray-200">
       <div className="container mx-auto px-6 py-4 flex justify-between items-center">
         <div className="flex items-center gap-2">
           <Rocket className="w-8 h-8 text-brand-orange" />
